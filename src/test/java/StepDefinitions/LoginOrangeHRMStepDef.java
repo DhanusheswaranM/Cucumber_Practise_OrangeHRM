@@ -50,8 +50,8 @@ public class LoginOrangeHRMStepDef {
 		Assert.assertTrue(dashboardText.getText().contains(expectedDashboardText));
 	}
 
-	@Then("assert the quick launck options {string}")
-	public void assert_the_quick_launck_options(String option) {
+	@Then("assert the quick launch options {string}")
+	public void assert_the_quick_launch_options(String option) {
 		if(option.equals("Assign Leave")) {
 			WebElement Assign_Leave = driver.findElement(By.xpath("//p[text()='Assign Leave']"));
 			Assert.assertTrue(Assign_Leave.getText().contains(option));
