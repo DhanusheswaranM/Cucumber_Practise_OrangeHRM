@@ -9,7 +9,7 @@ Feature: Login Testing for OrangeHRM website
     
     
     @AssertQuickLaunch
-    Scenario Outline: Asserting the Quich Launch Options
+    Scenario Outline: Asserting the Quick Launch Options
     Then assert the quick launch options "<option>"
     
     Examples:
